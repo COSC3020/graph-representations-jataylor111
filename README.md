@@ -16,6 +16,11 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+## My Runtime Analysis
+
+Since this is just running through and moving each value of the matrix to the list it should have a complexity of 
+$\theta(V^2)$ since it only cares about the vertices and doesn't care about the edges what so ever.  it is $V^2$ because there are 2 loops that it must run through.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
